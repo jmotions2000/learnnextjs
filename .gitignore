@@ -1,0 +1,30 @@
+# dependencies (부품들 - 용량 큼)
+/node_modules
+/.pnp
+.pnp.js
+
+# testing (테스트 결과물)
+/coverage
+
+# next.js (빌드 결과물 - 매번 바뀜)
+/.next/
+/out/
+
+# production
+/build
+
+# misc (맥북이나 시스템 잡동사니)
+.DS_Store
+*.pem
+
+# debug (에러 로그)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files (비밀번호/키 - 절대 보안!)
+.env*.local
+.env
+
+# vercel (버셀 배포 설정)
+.vercel
